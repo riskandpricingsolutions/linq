@@ -13,6 +13,7 @@ namespace LinqToXml.CheatSheets
         public void ParseElementFromString()
         {
             string xmlString =
+
                 @"<Portfolio>
                     <!-- Some Options -->
                     <Option K='100' Exp='2019-01-01' />
