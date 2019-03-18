@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace LinqToObjects.CheatSheets
+namespace CheatSheets
 {
     [TestFixture]
-    public class LinOperatorCheatSheet
+    public class OperatorCheatSheet
     {
         [Test]
         public void TestLinOperatorCheatSheet()
@@ -220,7 +220,6 @@ namespace LinqToObjects.CheatSheets
             //		element and its index in the sequence
             Enumerable.Range(1, 4).Select((x, y) => y)
                 .WriteLine("Enumerable.Range(1, 4).Select((x,y) => y)");
-
 
             // SelectMany()
             //	Returns flatened sequence of sequences
