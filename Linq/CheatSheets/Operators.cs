@@ -275,7 +275,7 @@ namespace LinqToObjects.CheatSheets
 
             // Sum 
             new[] { 1, 2, 3 }.Sum(e => e * e)
-                .WriteLine("new[] { 1, 2, 3 }.Sum(e=>e*e)"); a
+                .WriteLine("new[] { 1, 2, 3 }.Sum(e=>e*e)"); 
         }
     }
 
