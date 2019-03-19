@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace CheatSheets
+namespace RiskAndPricingSolutions.Linq.CheatSheets
 {
     [TestFixture]
     public class OperatorCheatSheet

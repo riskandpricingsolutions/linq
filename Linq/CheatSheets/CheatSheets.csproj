@@ -8,8 +8,8 @@
     <ProjectGuid>{CD16A34E-6B0B-4826-AC20-3975ECA69A13}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CheatSheets</RootNamespace>
-    <AssemblyName>CheatSheets</AssemblyName>
+    <RootNamespace>RiskAndPricingSolutions.Linq.CheatSheets</RootNamespace>
+    <AssemblyName>RiskAndPricingSolutions.Linq.CheatSheets</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -48,11 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operators.cs" />
+    <Compile Include="LinqToXml.cs" />
+    <Compile Include="LinqOperators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="XPath.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

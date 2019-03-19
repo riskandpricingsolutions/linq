@@ -27,6 +27,7 @@ public class SimpleEnumerator : IEnumerator<int>
 ```
 
 We can use an our enumerator as follows
+
 ```csharp
 var e = new SimpleEnumerator();
 
@@ -83,7 +84,7 @@ Iterators provide an elegant means of creating enumerators and enumerables.  The
 IEnumerator<int> GetFibonacci(int numEntries)
 {
 	for (int i = 0, current = 0, next = 1, nextnext = 1;
- i < numEntries; i++)
+		i < numEntries; i++)
 	{
 		yield return current;
 
